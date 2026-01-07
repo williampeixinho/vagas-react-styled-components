@@ -3,8 +3,8 @@ import Cabecalho from '../../components/Cabecalho'
 import FormVagas from '../../components/FormVagas'
 import Hero from '../../components/Hero'
 import Vaga from '../../components/Vaga'
-import { Empty, Footer, Grid, Page } from './styles'
 import { vagas } from '../../data'
+import { Empty, Grid, Page, Footer } from './styles'
 
 const norm = (s: string) =>
   s

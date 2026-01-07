@@ -1,5 +1,5 @@
-import { useState } from "react"
-import { Field, FormWrap, Grid, Input, Select } from "./styles"
+import { useState } from 'react'
+import { Field, FormWrap, Grid, Input, Select } from './styles'
 
 type Props = {
   aoPesquisar: (termo: string) => void
@@ -7,8 +7,8 @@ type Props = {
 }
 
 const FormVagas = ({ aoPesquisar, aoFiltrarNivel }: Props) => {
-  const [termo, setTermo] = useState("")
-  const [nivel, setNivel] = useState("")
+  const [termo, setTermo] = useState('')
+  const [nivel, setNivel] = useState('')
 
   return (
     <FormWrap>
